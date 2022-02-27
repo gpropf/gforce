@@ -1,0 +1,22 @@
+$Id: TODO.txt 40 2008-03-27 13:55:30Z greg $
+
+
+* Some system to look up specific ME's and bonds by name.  Probably
+  just find a hash library.
+
+* Collision checking
+
+* Connectedness checking
+
+* Breaking of overstressed bonds
+
+* Real energy accounting instead of the lame system I use to simulate
+  heat dissipation.  Take energy from the springs and send it into the
+  masses they connect as heat.
+
+* Thermal expansion of bonds
+
+* (Non-task) I don't think that the XML parser project is all that
+  vital.  A Python binding might be much cooler and get the project
+  more attention. Python pickles do the same job as XML with less
+  bullshit and overhead.
