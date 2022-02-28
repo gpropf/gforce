@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.8...3.22.2)
 
+# set(CMAKE_COMMAND  /opt/cmake-3.22.2-linux-x86_64/bin/cmake)
 
 # Let's build shared libs (*.so)
 option(BUILD_SHARED_LIBS "Build shared libraries." ON)
@@ -19,7 +20,9 @@ project(
 
 message(STATUS "cmake version: ${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}")
 
+include_directories(src)
 add_executable(gforce apps/gforce.cpp)
+add_subdirectory(src)
 target_include_directories(gforce PUBLIC apps)
 
 
