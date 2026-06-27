@@ -7,4 +7,4 @@
 2. VTK visuals so you can see what's going on in the sim world.
 3. Built using CMake.
 
-Please note that `cmake .` just builds the library and probably nothing else works yet.
+I still need to upload some of the files from my archives so this won't build yet.
