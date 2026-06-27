@@ -6,3 +6,5 @@
 1. Python bindings make the engine easily scriptable.
 2. VTK visuals so you can see what's going on in the sim world.
 3. Built using CMake.
+
+Please note that `cmake .` just builds the library and probably nothing else works yet.
